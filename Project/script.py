@@ -32,7 +32,7 @@ def test_txt():
     out = regex_recurse(cwd, exp)
     if len(out) == 8:
         print "Test 1 Success!"
-    print "Output: " + str(out)
+    print "Output: " + str(out) + "\n"
 
 
 def test_nums():
@@ -41,7 +41,7 @@ def test_nums():
     out = regex_recurse(cwd, exp)
     if len(out) == 5:
         print "Test 2 Success!"
-    print "Output: " + str(out)
+    print "Output: " + str(out) + "\n"
     
     
 def test_bad_dir():
